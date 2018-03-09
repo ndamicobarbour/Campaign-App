@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Campaign Log - Register</title>
+  </head>
+
+  <body>
+
+    <div class="header_div"><h1> Create a Campaign </h1></div>
+
+    <div class="form">
+        <!-- Campaign Registration -->
+        <form action="users/register" method="post" id="signup">
+
+            <!-- Username -->
+            <input class="campaign_input" type="text" name="username" placeholder="Campaign Name" /><br>
+
+            <!-- Password -->
+            <input class="campaign_input" type="text" name="password" placeholder="Campaign Code" /><br>
+
+            <!-- Description -->
+            <textarea id="description" name="description" form="signup" placeholder="Campaign Description"></textarea>
+
+            <input type="submit" value="Start a New Adventure!" />
+
+        </form>
+
+        <!-- Login -->
+        <form action="users/skip_to_login" method="post">
+            <input type="submit" value="Return to an Adventure!">
+        </form>
+
+    </div>
+
+  </body>
+</html>

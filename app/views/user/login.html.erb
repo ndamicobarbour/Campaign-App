@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Campaign Log - Login</title>
+  </head>
+  <body>
+
+    <div class="header_div"><h1> Return to the Campaign </h1></div>
+
+    <div class="flash_div"><%=flash[:wrong]%></div>
+
+    <div class="form">
+        <form action="login" method="post">
+
+            <input type="text" name="username" placeholder="Campaign Name" autofocus/><br>
+
+            <input type="text" name="password" placeholder="Capaign Code" /><br>
+
+            <input type="submit" value="Adventure!"/>
+
+        </form>
+    </div>
+
+  </body>
+</html>

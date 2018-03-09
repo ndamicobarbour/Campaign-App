@@ -1,0 +1,65 @@
+
+html {
+  background-color: #E3D7FF;
+  color: #2A2333;
+}
+
+form {
+  text-align: center;
+}
+
+.form {
+ margin-right: auto;
+ margin-left:  auto;
+ margin-top: 10px;
+
+ max-width: 500px;
+
+ padding: 10px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ background-color: #AFA2FF;
+}
+
+.campaign_input {
+  width: 430px;
+}
+
+
+.campaign {
+  margin-right: auto;
+  margin-left:  auto;
+  margin-top: 10px;
+
+  max-width: 500px;
+
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #AFA2FF;
+}
+
+#description {
+  width: 450px;
+  height: 300px;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+}
+
+.header_div {
+  background-color: #EDCADC;
+  color: #2A2333;
+  text-align: center;
+  margin-right: auto;
+  margin-left:  auto;
+  margin-top: 10px;
+
+  max-width: 800px;
+
+  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
